@@ -1,0 +1,103 @@
+/* for mobile */
+
+@media screen and (max-width: 576px) {
+    .navbar, .tour-section, .choose-section, .why-section, .discounts-section, .video-section, .form-section,.banner-section, .map-section
+    {
+        margin: 30px;
+    }
+    .responsive-bar
+    {
+        display: block;
+    }
+    #navid li
+    {
+        display: none;
+    }
+    .nav-logo
+    {
+        gap: 1rem;
+    }
+    .tour-section, .choose-image-card, .video-section, .form-section
+    {
+        flex-direction: column;
+    }
+    .tour-content ,.video-content, .video-video, .form, .form-image
+    {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .why-card
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .video-section
+    {
+        margin-top: 4rem;
+    }
+    .form-image
+    {
+        padding: 0px;
+    }
+    .banner-input
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
+
+
+/* for tablet */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .navbar,.tour-section, .choose-section ,.why-section, .discounts-section,.video-section, .form-section, .banner-section, .map-section
+    {
+        margin: 20px 50px;
+    }
+    .responsive-bar
+    {
+        display: block;
+    }
+    #navid li
+    {
+        display: none;
+    }
+    .nav-logo
+    {
+        gap: 2rem;
+    }
+    .tour-section, .why-card, .video-section,.form-section
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .tour-content,.video-content,.video-video,.form,.form-image
+    {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .video-section
+    {
+        margin-top: 4rem;
+    }
+    .form-image
+    {
+        padding: 0px;
+    }
+    .banner-input
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .choose-section
+    {
+        margin-bottom: 0px;
+    }
+}
